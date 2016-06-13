@@ -8,7 +8,7 @@ Keylib
 from setuptools import setup, find_packages
 
 setup(
-    name='blockstack-keys',
+    name='keylib',
     version='0.0.3',
     url='https://github.com/blockstack/keylib-py',
     license='MIT',

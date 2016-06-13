@@ -3,7 +3,7 @@ import unittest
 import traceback
 from test import test_support
 
-from blockstack_keys import (
+from keylib import (
     b58check_encode, b58check_decode, b58check_unpack,
     ECPrivateKey, ECPublicKey, public_key_to_address
 )

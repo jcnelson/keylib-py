@@ -17,7 +17,7 @@ $ pip install keylib
 #### Private Keys
 
 ```python
->>> from keylib import ECPrivateKey
+>>> from blockstack_keys import ECPrivateKey
 >>> private_key = ECPrivateKey()
 >>> private_key.to_hex()
 '6c59ab3cfea30a6fe9c9f6b06f956d34d946c1159842f44ce391c1d965cee4b601'
@@ -31,7 +31,7 @@ True
 #### Public Keys
 
 ```python
->>> from keylib import ECPublicKey
+>>> from blockstack_keys import ECPublicKey
 >>> public_key = private_key.public_key()
 >>> public_key.to_hex()
 '03019979ec442e61ace8d47c6a344d791cee12d4e7bbde05fa91a62c0cda51c834'
@@ -43,7 +43,7 @@ True
 #### Addresses
 
 ```python
->>> from keylib import public_key_to_address
+>>> from blockstack_keys import public_key_to_address
 >>> public_key.address()
 '12WDrxysCBDtVxaP1n4HHj8BLqqqfaqANd'
 >>> public_key.hash160()

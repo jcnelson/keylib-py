@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Keylib
 ==============
@@ -7,7 +8,7 @@ Keylib
 from setuptools import setup, find_packages
 
 setup(
-    name='keylib',
+    name='blockstack-keys',
     version='0.0.3',
     url='https://github.com/blockstack/keylib-py',
     license='MIT',
